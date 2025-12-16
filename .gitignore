@@ -1,0 +1,7 @@
+# Python
+pyImaging/utils/__pycache__/
+pyImaging/venv/
+
+# ESP32
+GestureMotorControl/.pio/
+GestureMotorControl/.vscode/
