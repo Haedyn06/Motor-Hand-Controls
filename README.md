@@ -44,13 +44,13 @@ Before starting, you must have the MQTT server on.
     #define SERVERIP "MQTT SERVER IP"
     #define PORT [SERVER PORT]
 ```
-5. Follow the [schematics](#schematics).
+5. Follow the [schematics](#Schematics).
 6. connect your esp32 board
 7. upload the project into your esp32
 8. run the pyImaging program
 
 
-## Board Schematics:
+## Schematics
 
 ### Servo Motor:
 
