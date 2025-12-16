@@ -54,7 +54,7 @@ Before starting, you must have the MQTT server on.
 
 ### Servo Motor:
 
-##### Servo Motor Connections
+#### Servo Motor Connections
 - Servo(Red) ===> ESP32(VCC) 
 - Servo(Black) ===> ESP32(GND) 
 - Servo(Yellow) ===> ESP32(P18) 
@@ -62,11 +62,11 @@ Before starting, you must have the MQTT server on.
 
 ### DC Motor:
 
-##### DC Motor Connections
+#### DC Motor Connections
 - DC(Red) ===> Driver(Out1)
 - DC(Red) ===> Driver(Out2)
 
-##### Driver Connections
+#### Driver Connections
 - Driver(IN1) ===> ESP32(P15) 
 - Driver(IN2) ===> ESP32(P2)
 - Driver(12V) ===> PowerSupply(+) 
