@@ -1,3 +1,3 @@
 #pragma once
 void dcMotorSetup();
-void dcMotorLoop();
+void dcGetMsg(String msg);

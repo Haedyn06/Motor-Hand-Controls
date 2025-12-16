@@ -1,13 +1,14 @@
-import cv2
+import cv2, os
 import mediapipe as mp
 import paho.mqtt.client as mqtt
-import subprocess
-import threading
 from utils.Finger import Finger
 from utils.Gestures import handGesture
+from dotenv import load_dotenv
 
+load_dotenv()
 
-MQTT_BROKER = "192.168.1.89"
+MQTT_BROKER = os.getenv("MQTT_BROKER")
+MQTT_PORT = int(os.getenv("MQTT_PORT", "1883"))
 
 mp_hands = mp.solutions.hands
 mp_draw  = mp.solutions.drawing_utils
@@ -16,7 +17,7 @@ cap = cv2.VideoCapture(0) #Web Cam
 
 
 client = mqtt.Client()
-client.connect(MQTT_BROKER, 1883, 60)
+client.connect(MQTT_BROKER, MQTT_PORT, 60)
 
 
 #Initiate Fingers
@@ -25,8 +26,6 @@ index = Finger("index", [5, 6, 7, 8])
 middle = Finger("middle", [9, 10, 11, 12])
 ring = Finger("ring", [13, 14, 15, 16])
 pinky = Finger("pinky", [17, 18, 19, 20])
-
-#Initiate Hand Gesture Function
 
 
 def msgRec(client, userdata, msg):

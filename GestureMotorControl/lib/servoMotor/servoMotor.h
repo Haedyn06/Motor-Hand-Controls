@@ -1,3 +1,3 @@
 #pragma once
 void servoMotorSetup();
-void servoMotorLoop();
+void servoGetMsg(String msg);
