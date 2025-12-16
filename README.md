@@ -18,6 +18,8 @@ This is a program that detects hand movements where it also detects hand gesture
 
 ### Steps:
 
+Before starting, you must have the MQTT server on.
+
 #### Run Python Imaging
 1. Install Python Dependencies
 2. Create python venv inside `/pyImaging`
@@ -41,11 +43,11 @@ This is a program that detects hand movements where it also detects hand gesture
     #define WIFIPW "YOUR WIFI PASSWORD"
     #define SERVERIP "MQTT SERVER IP"
     #define PORT [SERVER PORT]
-
 ```
-3. connect your esp32 board
-4. upload the project into your esp32
-5. run the pyImaging program
+5. Follow the [schematics](#Steps).
+6. connect your esp32 board
+7. upload the project into your esp32
+8. run the pyImaging program
 
 
 ## Board Schematics:
