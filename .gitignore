@@ -7,3 +7,4 @@ pyImaging/venv/
 GestureMotorControl/.pio/
 GestureMotorControl/.vscode/
 GestureMotorControl/lib/private/
+GestureMotorControl/tests/
