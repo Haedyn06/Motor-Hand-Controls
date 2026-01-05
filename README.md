@@ -59,6 +59,7 @@ Before starting, you must have the MQTT server on.
 - Servo(Black) ===> ESP32(GND) 
 - Servo(Yellow) ===> ESP32(P18) 
 
+![Servo Motor](Assets/ServoDemo.png)
 
 ### DC Motor:
 
