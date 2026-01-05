@@ -71,4 +71,6 @@ Before starting, you must have the MQTT server on.
 - Driver(12V) ===> PowerSupply(+) 
 - Driver(GND) ===> PowerSupply(-) 
 
+### Diagram Schematics 
+
 ![Servo Motor](Assets/ServoDemo.png)
