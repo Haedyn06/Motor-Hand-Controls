@@ -14,7 +14,7 @@ This is a program that detects hand movements where it also detects hand gesture
 - 5V DC Motor
 - Servo Motor
 - Power Supply
-- Cables
+- MM & MF Jumper Wires
 
 ### Steps:
 
